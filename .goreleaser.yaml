@@ -1,0 +1,25 @@
+version: 2
+
+project_name: scryfall
+
+# Disable binary builds since this is a library
+builds:
+  - skip: true
+
+release:
+  github:
+    owner: repricah
+    name: scryfall
+  draft: true
+  prerelease: auto
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+      - '^chore:'
+      - '^ci:'
+      - '^style:'
+      - '^refactor:'

@@ -1,5 +1,9 @@
 # Scryfall Go Client
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/repricah/scryfall.svg)](https://pkg.go.dev/github.com/repricah/scryfall)
+[![Go Report Card](https://goreportcard.com/badge/github.com/repricah/scryfall)](https://goreportcard.com/report/github.com/repricah/scryfall)
+[![CI](https://github.com/repricah/scryfall/actions/workflows/ci.yml/badge.svg)](https://github.com/repricah/scryfall/actions/workflows/ci.yml)
+
 A lightweight Go client for the [Scryfall API](https://scryfall.com/docs/api).
 
 - Focused on the core API + bulk data endpoints

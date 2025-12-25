@@ -10,7 +10,7 @@ release:
   github:
     owner: repricah
     name: scryfall
-  draft: false
+  draft: true
   prerelease: auto
 
 changelog:
@@ -19,3 +19,7 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+      - '^chore:'
+      - '^ci:'
+      - '^style:'
+      - '^refactor:'
